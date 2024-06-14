@@ -1,0 +1,133 @@
+header{
+    background-color: rgb(59, 87, 170);
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#CABECERA{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
+    list-style-type: none;
+    font-size: 11pt;
+}
+.ft a:hover{    
+    text-decoration: underline;
+}
+.ide a {
+    list-style-type: none;
+    text-decoration: none;
+}
+.ide a:hover {
+    list-style-type: none;
+    text-decoration: none;
+}
+#last{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.mapa{
+    text-align: center;
+}
+.sec{
+    color: white;
+    margin-top: 10px;
+}
+.sec a{
+    color: white;
+}
+.icon{
+    padding: 10px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+main{
+    background-color: rgb(160, 200, 233)0;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+table{
+    padding: 20px;
+}
+
+#CABECERA a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+#CABECERA a:hover {    
+    color: rgb(220, 237, 247);
+}
+li{
+    padding: 5px;
+}
+caption{
+    text-align: left;
+}
+th{
+    padding: 20px;
+}
+td {
+    text-align: center;
+    border: 1px solid rgb(155, 147, 147);
+}
+footer{
+    background-color: rgb(59, 87, 170);
+    margin-top: 20px;
+}
+#footer{
+    display:block;
+    text-align: center;
+}
+* {
+    font-family: sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #2180ce;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #637dac;
+}
+
+.ft a{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.imagenabajo{
+    text-align: center;
+}
